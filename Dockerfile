@@ -11,4 +11,4 @@ RUN npm install
 COPY . .
 
 EXPOSE $PORT
-CMD [ "nodemon", "app.js" ]
+CMD [ "node", "app.js" ]
